@@ -58,6 +58,8 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         }
     }
 
+    public void closeApp(View view) {
+        finish(); }
     @Override
     public void onAccuracyChanged(Sensor sensor, int i) {
         //no implementation
